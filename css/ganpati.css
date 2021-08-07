@@ -1,0 +1,211 @@
+body {
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #FF616D;
+  color: #fff;
+}
+.title-heading {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.title-span {
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 2px;
+}
+.title-image {
+  position: absolute;
+  width: 85%;
+  height: 100%;
+  right: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* title image */
+
+
+/* Title Button */
+.title-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* login dialog box  */
+
+.modal-content {
+  color: gray;
+}
+.modal-header {
+  margin-left: 34%;
+}
+
+/* Feature Section */
+.feature {
+  background-color: #fff;
+}
+.feature-box{
+  text-align: center;
+  padding: 5% 3%;
+}
+.feature-para, .products-para, .card-text, .contact-para {
+  color: #8f8f8f;
+}
+.icon {
+  color: #ef8172;
+  padding: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Feature Products */
+
+#products {
+  text-align: center;
+  background-color: #EFEFEF;
+  padding-top: 3%;
+}
+.products-card {
+  padding: 3% 7% 3% 7%;
+}
+.card-img-top {
+  height: 200px;
+}
+.products-title, .contact-title {
+  color: #ff4c68;
+  letter-spacing: 1px;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item {
+  padding: 3% 15%;
+}
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press  */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 10px 20px 10px;
+  padding: 15px;
+}
+
+/* Contact */
+#contact{
+  text-align: center;
+  background-color: #EFEFEF;
+  padding: 3% 15%;
+}
+.form-content{
+  position: relative;
+    width: 50%;
+    left: 25%;
+}
+#footer {
+  margin-top: 3%;
+  text-align: center;
+}
+.footer-logo {
+  padding: 10px 12px;
+}
+.footer-para {
+  margin: 10px 0 0 0;
+}
+.footer-logo {
+  color: #ef8172;
+}
+.footer-logo:hover {
+  color: #ff4c68;
+}
+
+
+
+
+
+
+
+
+
+.btnCard {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnCard:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+@media (max-width: 1028px){
+  body {
+    text-align: center;
+  }
+  .title-heading {
+    text-align: center;
+  }
+  
+  .title-image {
+    visibility: hidden;
+  }
+  .products-card {
+    margin: 0 20% 20% 0;
+  }
+
+}

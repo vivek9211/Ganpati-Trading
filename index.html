@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Selling Website</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <!-- Bootstrap css-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/ganpati.css">
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/22312c5dd2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Title -->
+
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- navigation bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Ganpati</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">My Account</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="title-heading"><span class="title-span">Must have your</span> First Preference.</h1>
+          <!-- Sign In and Sign Up Buttons -->
+          <button type="button" class="btn btn-outline-light btn-lg title-button" data-toggle="modal" data-target="#signIn" data-whatever="@mdo"><i class="fas fa-sign-in-alt"></i> Sign In</button>
+
+          <div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Login Form</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">Username or Email:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                      <label for="password-text" class="col-form-label">Password:</label>
+                      <input type="password" class="form-control" id="password-text">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Login</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button type="button" class="btn btn-dark btn-lg title-button" data-toggle="modal" data-target="#signUp" data-whatever="@mdo"><i class="fas fa-user-plus"></i> Sign Up</button>
+
+          <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Create Account</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="email-name" class="col-form-label">Email:</label>
+                      <input type="text" class="form-control" id="email-name">
+                    </div>
+                    <div class="form-group">
+                      <label for="username-name" class="col-form-label">Username:</label>
+                      <input type="text" class="form-control" id="username-name">
+                    </div>
+                    <div class="form-group">
+                      <label for="password-text" class="col-form-label">Password:</label>
+                      <input type="password" class="form-control" id="password-text">
+                    </div>
+                    <div class="form-group">
+                      <label for="confirm-password-text" class="col-form-label">Confirm Password:</label>
+                      <input type="password" class="form-control" id="confirm-password-text">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Sign Up</button>
+                </div>
+              </div>
+            </div>
+          </div> <!-- login and sign up -->
+
+        </div>
+
+        <div class="col-lg-6">
+          <!-- <i class="fas fa-home fa-10x title-image"></i> -->
+          <img class="title-image" src="Images/title-image.jpg" alt="title-image">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-rupee-sign fa-3x"></i>
+        <h3>Money Back Gurentee.</h3>
+        <p class="feature-para">100% money back within a week.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-exchange-alt fa-3x"></i>
+        <h3>Easy to return.</h3>
+        <p class="feature-para">You can return it within 7 days, under return policy.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-phone-volume fa-3x"></i>
+        <h3>Online Support.</h3>
+        <p class="feature-para">Get 24/7 support system.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Feature Products -->
+
+  <section id="products">
+    <h3><span class = "products-title">Featured</span>Products</h3>
+    <p class = "products-para">Simple and affordable price plans for your and your dog.</p>
+
+    <div class="products-card row">
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Images/cement1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Shree Cement</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Price: ₹1000</li>
+            <li class="list-group-item">Rating: </li>
+          </ul>
+          <div class="card-body">
+            <button class="btnCard">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Images/gitti.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Shree Cement</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Price: ₹1000</li>
+            <li class="list-group-item">Rating: </li>
+          </ul>
+          <div class="card-body">
+            <button class="btnCard">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Images/iron-rod.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Shree Cement</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Price: ₹1000</li>
+            <li class="list-group-item">Rating: </li>
+          </ul>
+          <div class="card-body">
+            <button class="btnCard">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Top Products -->
+
+  <section id="products">
+    <h3><span class = "products-title">Top</span>Products</h3>
+    <p class = "products-para">Simple and affordable price plans for your and your dog.</p>
+
+    <div class="products-card row">
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Images/sand.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Shree Cement</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Price: ₹1000</li>
+            <li class="list-group-item">Rating: </li>
+          </ul>
+          <div class="card-body">
+            <button class="btnCard">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Images/tank.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Shree Cement</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Price: ₹1000</li>
+            <li class="list-group-item">Rating: </li>
+          </ul>
+          <div class="card-body">
+            <button class="btnCard">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Images/mixer.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Shree Cement</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Price: ₹1000</li>
+            <li class="list-group-item">Rating: </li>
+          </ul>
+          <div class="card-body">
+            <button class="btnCard">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="Images/dog-img.jpg" alt="dog-profile">
+          <em>Tommy, Naubatpur</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="Images/lady-img.jpg" alt="lady-profile">
+          <em>Jimmy, Patna</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#ctestimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+
+      </a>
+
+    </div>
+  </section>
+
+  <section id = "press">
+    <img class = "press-logo" src="Images/cement1.png" alt="Shree Cement">
+    <img class = "press-logo" src="Images/cement2.png" alt="Bangur Cement">
+    <img class = "press-logo" src="Images/tata-rod.png" alt="rod Cement">
+  </section>
+
+  <section id = "contact">
+    <h3><span class = "contact-title">Leave</span>Messages</h3>
+    <p class = "contact-para">If you have any query related to our service then leave Message.</p>
+    <form>
+    <div class = "form-content">
+        <div class="form-group">
+      <label for="exampleFormControlInput1">Full Name</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Leave Your Massage</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    </div>
+
+</form>
+  </section>
+
+</body>
+<!-- Footer -->
+    <footer id = "footer">
+      <a class="footer-logo" href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a class="footer-logo" href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+      <a class="footer-logo" href="#"><i class="fab fa-instagram fa-2x"></i></a>
+      <a class="footer-logo" href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      <p class = "footer-para">designed by SandBox</p>
+      <p>© Copyright 2021 sandbox</p>
+    </footer>
+
+</html>
